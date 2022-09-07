@@ -1,0 +1,503 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<!--<main role="main">
+
+    
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+    
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+    
+
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="../../assets/js/vendor/popper.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;"></iframe>
+  <div id="GOOGLE_INPUT_CHEXT_FLAG" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}" style="display: none;"></div>
+-->
+
+
+<head>
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.98.0">
+  <title>About</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+
+
+
+
+  <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#712cf9">
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+
+<main>
+<link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Marck Script' rel='stylesheet'>
+<style>
+    .bb{
+        font-family: 'Faster One';
+        font-size: 40px;
+        color: black;
+        
+    }
+    .pp{
+      font-family: 'Marck Script';font-size: 22px;
+  }
+</style>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#777" />
+        </svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class = 'bb' >Example headline</h1>
+            <p class ='pp'>Some representative placeholder content for the first slide of the carousel.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#777" />
+        </svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class = 'bb'>Another example headline</h1>
+            <p class ='pp'>Some representative placeholder content for the second slide of the carousel.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+          preserveAspectRatio="xMidYMid slice" focusable="false">
+          <rect width="100%" height="100%" fill="#777" />
+        </svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class = 'bb'>One more for good measure</h1>
+            <p class ='pp'>Some representative placeholder content for the third slide of this carousel.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</main>
+<main>
+  <div class="container marketing my-4">
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+    <p style = "font-family: 'Charm';font-size: 22px" class = 'text-justify'>
+      Skill Development and Vocational Training Institute of India (SDVTII) is envisaged to provide skill-based and
+      vocational courses to individual/student across India and spread its presence in world. SDVTII focuses on IT
+      Programs like Computer Application Training, Hardware Training and many more; Non-IT Programs like Taxation,
+      Entrepreneurship, Stock Market and many more;
+      Sector Specialization programs like Teacher Training, Electric and Electronic Trade, Tailoring Trade, Beautician
+      Trade and many more.
+
+      <br>
+      <br> SDVTII in association with Business Training Board of nine states – Maharashtra, Gujarat, Rajasthan, Jammu
+      and Kashmir, West Bengal, Uttar Pradesh, Madhya Pradesh, Goa and Karnataka; provides Certification to students for
+      these various programs. This certification helps the students in procuring good opportunities for job and
+      entrepreneurship.
+      <br>
+      <br> The Main Motto of SDVTII is 'Skilled India Successful India'.
+      <br>
+      <br> Our Vision: To UPSKILL INDIA by providing Skill Development Programs and certifications for the same. We work
+      to capitalize India as the Power Hub Nation in regard with Skilled Human Resource.
+      <br>
+      <br> Our Mission: UP FOR SKILLS – We are teamed to charter the needs of the society by providing a platform where
+      individuals are trained towards skills needed in Industry. We have conceptualized the means of providing training
+      by Offline and Online Mode. We are motivated to establish this hybrid model in our Institute and also to train and
+      educate more than 10000 students by the end of 2017. We are also looking forward to affiliate 9 key educational
+      institutes for Vocational Training by the end of 2017 in 9 states of India.
+      <br>
+      <br> Our Commitment: We pledge to become a contributor in Skill India Mission so as to make India as Skill Capital
+      of the World.
+    </p>
+  </div>
+</main>
+<!--<div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+          <h2 class="fw-normal">Heading</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+          <h2 class="fw-normal">Heading</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+          <h2 class="fw-normal">Heading</h2>
+          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><
+    
+
+
+    
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        </div>
+        <div class="col-md-5">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+        </div>
+      </div>-->
+<main> 
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <style>
+    .hr4 {
+    border: 0;
+    border-top: 1px dashed ;
+    border-bottom: 2px solid ;
+    height: 3px;
+    }
+    .hh{
+      font-family: 'Sofia';
+      font-size: 30px;
+      text-align: justify; 
+    }
+    .intro{
+      font-family: "Sofia", sans-serif;
+      font-size: 35px;
+      text-shadow: 3px 3px 3px #ababab;
+    }
+  </style>
+  
+    <div class="container panel panel-default">
+      <hr class="hr4">
+      <div class="panel-heading" role="tab">
+        <h4 class="panel-title">
+          <h2 class = 'hh'>Privacy Policy</h2>
+        </h4>
+      </div>
+      <!--<div id="collapseOne" class="panel-collapse collapse" role="tabpanel">-->
+      <div id="collapseOne" class="panel-collapse" role="tabpanel">
+        <div class="panel-body">
+
+          <div class="clearfix food-list">
+            <p>At sdvtii.in, accessible from https://www.sdvtii.in, one of our main priorities is the privacy of our
+              visitors. This Privacy Policy document contains types of information that is collected and recorded by
+              sdvtii.in and how we use it.</p>
+            <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to
+              contact us.</p>
+            <p>
+              This Privacy Policy applies only to our online activities and is valid for visitors to our website with
+              regards to the information that they shared and/or collect in sdvtii.in. This policy is not applicable to any
+              information collected offline or via channels other than this website. Our Privacy Policy was created with the
+              help of the <a href="https://www.privacypolicygenerator.info/">Privacy Policy Generator</a>.</p>
+            <br/>
+            <h2 class = 'hh'>Consent</h2>
+            <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+            <br/>
+            <h2 class = 'hh'>Information we collect</h2>
+            <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will
+              be made clear to you at the point we ask you to provide your personal information.</p>
+            <p>If you contact us directly, we may receive additional information about you such as your name, email address,
+              phone number, the contents of the message and/or attachments you may send us, and any other information you
+              may choose to provide.</p>
+            <p>When you register for an Account, we may ask for your contact information, including items such as name,
+              company name, address, email address, and telephone number.</p>
+              <br/>
+            <h2 class = 'hh'>How we use your information</h2>
+            <p>We use the information we collect in various ways, including to:</p>
+            <ul>
+              <li>Provide, operate, and maintain our website</li>
+              <li>Improve, personalize, and expand our website</li>
+              <li>Understand and analyze how you use our website</li>
+              <li>Develop new products, services, features, and functionality</li>
+              <li>Communicate with you, either directly or through one of our partners, including for customer service, to
+                provide you with updates and other information relating to the website, and for marketing and promotional
+                purposes</li>
+              <li>Send you emails</li>
+              <li>Find and prevent fraud</li>
+            </ul>
+            <br/>
+            <h2 class = 'hh'>Log Files</h2>
+            <p>sdvtii.in follows a standard procedure of using log files. These files log visitors when they visit websites.
+              All hosting companies do this and a part of hosting services analytics. The information collected by log
+              files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time
+              stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that
+              is personally identifiable. The purpose of the information is for analyzing trends, administering the site,
+              tracking users' movement on the website, and gathering demographic information.</p>
+              <br/>
+            <h2 class = 'hh'>Cookies and Web Beacons</h2>
+            <p>Like any other website, sdvtii.in uses 'cookies'. These cookies are used to store information including
+              visitor's preferences, and the pages on the website that the visitor accessed or visited. The information is
+              used to optimize the user's experience by customizing our web page content based on visitor's browser type
+              and/or other information.</p>
+            <p>For more general information on cookies, please read <a
+                href="https://www.privacypolicyonline.com/what-are-cookies/">"What Are Cookies"</a>.</p>
+                <br/>
+            <h2 class = 'hh' style = 'text-align: justify;'>Our Advertising Partners</h2>
+            <p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners are listed below.
+              Each of our advertising partners has their own Privacy Policy for their policies on user data. For easier
+              access, we hyperlinked to their Privacy Policies below.</p>
+            <ul>
+              <li>
+                <p>Google</p>
+                <p><a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a>
+                </p>
+              </li>
+            </ul>
+            <br/>
+            <h2 class = 'hh'>Advertising Partners Privacy Policies</h2>
+            <p>You may consult this list to find the Privacy Policy for each of the advertising partners of sdvtii.in.</p>
+            <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are
+              used in their respective advertisements and links that appear on sdvtii.in, which are sent directly to users'
+              browser. They automatically receive your IP address when this occurs. These technologies are used to measure
+              the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on
+              websites that you visit.</p>
+            <p>Note that sdvtii.in has no access to or control over these cookies that are used by third-party advertisers.
+            </p>
+            <br/>
+            <h2 class = 'hh'>Third Party Privacy Policies</h2>
+            <p>sdvtii.in's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to
+              consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may
+              include their practices and instructions about how to opt-out of certain options.</p>
+            <p>You can choose to disable cookies through your individual browser options. To know more detailed information
+              about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
+              <br/>
+            <h2 class = 'hh'>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+            <p>Under the CCPA, among other rights, California consumers have the right to:</p>
+            <p>Request that a business that collects a consumer's personal data disclose the categories and specific pieces
+              of personal data that a business has collected about consumers.</p>
+            <p>Request that a business delete any personal data about the consumer that a business has collected.</p>
+            <p>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</p>
+            <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these
+              rights, please contact us.</p>
+              <br/>
+            <h2 class = 'hh'>GDPR Data Protection Rights</h2>
+            <p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled
+              to the following:</p>
+            <p>The right to access - You have the right to request copies of your personal data. We may charge you a small
+              fee for this service.</p>
+            <p>The right to rectification - You have the right to request that we correct any information you believe is
+              inaccurate. You also have the right to request that we complete the information you believe is incomplete.</p>
+            <p>The right to erasure - You have the right to request that we erase your personal data, under certain
+              conditions.</p>
+            <p>The right to restrict processing - You have the right to request that we restrict the processing of your
+              personal data, under certain conditions.</p>
+            <p>The right to object to processing = You have the right to object to our processing of your personal data,
+              under certain conditions.</p>
+            <p>The right to data portability - You have the right to request that we transfer the data that we have
+              collected to another organization, or directly to you, under certain conditions.</p>
+            <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these
+              rights, please contact us.</p>
+              <br/>
+            <h2 class = 'hh'>Children's Information</h2>
+            <p>Another part of our priority is adding protection for children while using the internet. We encourage parents
+              and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
+            <p>sdvtii.in does not knowingly collect any Personal Identifiable Information from children under the age of 13.
+              If you think that your child provided this kind of information on our website, we strongly encourage you to
+              contact us immediately and we will do our best efforts to promptly remove such information from our records.
+            </p>
+            <p>&nbsp;</p>
+            <blockquote>
+              <p>
+                <div class = 'intro text-center'>
+                <span style = 'font-size:30px'>Our motto is </span><span><span style="font-size: 25pt"><strong>“<span
+                        style="color: blue">Skilled</span>
+                      <span style="color: red">India</span> <span style="color: blue">Successful</span>
+                      <span style="color: red">India</span>”</strong></span></span>
+                </div>  
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+<main>
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <style>
+    .intro{
+      font-family :  'Sofia'; font-size: 25px ;
+    }
+  </style>
+  <div class='container-fluid my-4 py-4'>
+    <hr class="featurette-divider">
+    <h1 class='hh text-center py-2'>Authorisations & Affiliations</h1>
+    <div class='container-fluid'>
+      {% load static %}
+      <img src="{% static "p11.jpg" %}" class="d-block w-100" alt="the-buzz-img3">
+    </div>
+    <h1 class='hh text-center py-2'> Our Affiliates </h1>
+    <div class = 'container-fluid'>
+      {% load static %}
+      <img src="{% static "p2.jpg" %}" class="d-block w-100" alt="the-buzz-img3" width="500" height="500">
+    </div>
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+  </div>
+  </div>
+  <h5 class = 'hh text-center'>   : Disclaimer : </h5>
+  <div class = 'container-fluid text-center'>
+      <p>
+          SDVTII is just the certificate issuing authority for the students on due, successful course completion and satisfactory examination and result.
+              The fees paid by SDVTII affiliated academy is towards certification cost (Taxes to be paid in addition as applicable). The certification fees once paid is not refundable/transferable in any circumstances. It is the sole responsibility of SDVTII affiliated centre to complete the course of student, refund of course fees or any such matter pertaining to the student enrollment, fees received from the student, etc. SDVTII is not liable for any course completion or refunds or any such matter pertaining to the student obligations such as course completion, fees receipt, refund, examination, etc for students enrolled at SDVTII affiliated centre. 
+             The decision of certification to the student is subject to SDVTII approval.
+      </p>
+  </div>
+</main>
+{% endblock body %}

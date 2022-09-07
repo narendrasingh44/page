@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class='container-fluid py-4 px-4 text-center'>
+  <img src="/static/5.jpg" class="img-fluid" alt="the-buzz-img3" width="640" height="460">
+</div>
+<div class='container'>
+  <h3 class='text-center'> Contact Us </h3>
+  <form method='POST' action='/contact'>
+    {% csrf_token%}
+    <div class="mb-3">
+      <label for="name" class="form-label">Your Name</label>
+      <input type="name" class="form-control" name='name' id="name" placeholder="name">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Your Email address</label>
+      <input type="email" class="form-control" name='email' id="email"
+        placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone number</label>
+      <input type="phone" class="form-control" name='phone' id="phone" placeholder="+910123456789">
+    </div>
+    <div class="mb-3">
+      <label for="query" class="form-label">Your Query</label>
+      <input class="form-control" id="query" name='query' id = 'query' placeholder = 'Write your query'>
+    </div>
+    <button class='btn btn-primary' type='submit'> Submit </button>
+</div>
+</form>
+<div class = 'container text-center'>
+  <p class= 'text-center'>
+    <h3>
+    Office:
+    </h3>
+    <a1>
+      Skill Development And Vocational Training Institute of India
+    
+    <br>  5th Floor, C Wing, Hetal Arch Society, S. V. Road,
+    
+    <br>  Opp. Natraj Market, Malad (W), Mumbai-400064,
+    
+    <br>  Tel. : 0091-22-28834034/28834525
+    </a1>
+    <br>
+    <img src="/static/loc.png" class="img-fluid" alt="the-buzz-img3" width = '50'>
+    <a href="https://www.google.com/maps/place/Hetal+Arch/@19.1877563,72.846581,116m/data=!3m1!1e3!4m12!1m6!3m5!1s0x0:0xa1c0c58b612a5338!2sHetal+Arch!8m2!3d19.1878151!4d72.8464444!3m4!1s0x0:0xa1c0c58b612a5338!8m2!3d19.1878151!4d72.8464444?hl=en-GB">location</a>
+  </p>
+      
+{% endblock body %}
